@@ -1,0 +1,15 @@
+Basic commands:
+node debug filename
+"cont" is continue 
+"restart" = get back to debug sessison
+sb(2) = set breakpoint on line 2 then "cont" to start inspecting at 2nd line
+
+above steps halt the execution at 2nd line for example then you need to see values for all arguments then
+"repl"
+
+Another point instead of putting "sb" everywhere put "watch" on particular arguments
+to cont see every iteration : "cont" should use after "watch"
+
+
+Recent Changes in Node debugging:
+node --inspect --debug-brk fileName
